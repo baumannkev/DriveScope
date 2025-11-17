@@ -1,0 +1,22 @@
+-- Seed data for car_listings
+INSERT INTO car_listings (make, model, year, price, mileage, score, image_url, location, description) VALUES
+('Toyota', 'Camry', 2020, 22500.00, 35000, 8.5, 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=400', 'Los Angeles, CA', 'Well-maintained, single owner, excellent condition'),
+('Honda', 'Civic', 2019, 18900.00, 42000, 8.2, 'https://images.unsplash.com/photo-1590362891991-f776e747a588?w=400', 'San Francisco, CA', 'Great fuel economy, clean title'),
+('Ford', 'F-150', 2021, 38500.00, 28000, 9.0, 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=400', 'Austin, TX', 'Powerful truck, towing package included'),
+('Tesla', 'Model 3', 2022, 42000.00, 15000, 9.2, 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400', 'Seattle, WA', 'Electric, autopilot, premium interior'),
+('Chevrolet', 'Silverado', 2020, 35000.00, 38000, 8.0, 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=400', 'Dallas, TX', 'Crew cab, 4WD, well equipped'),
+('BMW', '3 Series', 2021, 38900.00, 22000, 8.8, 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400', 'Miami, FL', 'Luxury sedan, premium package'),
+('Mercedes-Benz', 'C-Class', 2020, 36500.00, 30000, 8.6, 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400', 'New York, NY', 'Elegant design, leather seats'),
+('Mazda', 'CX-5', 2021, 28500.00, 25000, 8.7, 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400', 'Denver, CO', 'SUV, all-wheel drive, spacious'),
+('Subaru', 'Outback', 2020, 27900.00, 32000, 8.4, 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400', 'Portland, OR', 'Adventure ready, AWD system'),
+('Nissan', 'Altima', 2019, 17500.00, 45000, 7.8, 'https://images.unsplash.com/photo-1597404294360-fccbf2a5bd7b?w=400', 'Phoenix, AZ', 'Reliable sedan, well maintained'),
+('Hyundai', 'Tucson', 2021, 26900.00, 20000, 8.3, 'https://images.unsplash.com/photo-1619767886558-efdc259cde1a?w=400', 'Chicago, IL', 'Compact SUV, modern features'),
+('Volkswagen', 'Jetta', 2020, 19500.00, 35000, 8.1, 'https://images.unsplash.com/photo-1622353219448-46a009f0d44f?w=400', 'Boston, MA', 'German engineering, fuel efficient'),
+('Audi', 'A4', 2021, 39500.00, 18000, 9.1, 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400', 'San Diego, CA', 'Quattro AWD, premium sound system'),
+('Lexus', 'RX 350', 2020, 41500.00, 27000, 9.0, 'https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=400', 'Atlanta, GA', 'Luxury SUV, hybrid option'),
+('Jeep', 'Wrangler', 2021, 36900.00, 22000, 8.5, 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400', 'Las Vegas, NV', 'Off-road capable, removable top'),
+('Kia', 'Sorento', 2020, 25500.00, 33000, 8.2, 'https://images.unsplash.com/photo-1610881791666-e0e1247dc1c4?w=400', 'Orlando, FL', 'Family SUV, third-row seating'),
+('Dodge', 'Charger', 2019, 28900.00, 40000, 7.9, 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400', 'Detroit, MI', 'Performance sedan, V6 engine'),
+('Acura', 'TLX', 2021, 34500.00, 19000, 8.6, 'https://images.unsplash.com/photo-1555626906-fcf10d6851b4?w=400', 'Philadelphia, PA', 'Sport sedan, tech package'),
+('Ram', '1500', 2020, 37500.00, 31000, 8.3, 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=400', 'Houston, TX', 'Full-size truck, comfortable ride'),
+('Volvo', 'XC60', 2021, 43500.00, 16000, 9.2, 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=400', 'Minneapolis, MN', 'Safety first, Scandinavian design');
